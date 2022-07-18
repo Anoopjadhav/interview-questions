@@ -1,0 +1,12 @@
+1.  Brief Introduction
+2.  Tech used in current project
+3.  Technical questions
+    a.  HTML/CSS
+    b.  Javascript
+    c.  React Js
+4.  Testing 
+    a.  Unit Testing
+4.  Web Security
+5.  Accessibility
+6.  Performance
+7.  Feedback

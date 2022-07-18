@@ -1,0 +1,6 @@
+1.  Render Props
+2.  React Hooks, why?
+3.  Context, why?
+4.  useReducer and useState
+5.  React 18 features
+6.  Difference between React class and functional components
