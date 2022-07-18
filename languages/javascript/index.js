@@ -12,4 +12,4 @@
 
 
 import generalProblems from "./src/generalProblems.js";
-generalProblems.problem1()
+generalProblems.problem2()

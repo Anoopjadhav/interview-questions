@@ -26,6 +26,38 @@ export const problem1 = () => {
 
 /*
 2. Custom Polyfill for apply method
+*/
+
+export const problem2 = () => {
+  const pokemon = {
+    name: 'pikachu',
+    type: 'electric'
+  }
+
+  const mouse = {
+    getType: function () {
+      return this.type
+    }
+  }
+
+
+
+
+  //Ans 1
+  Function.prototype.customApply = function (context, params) {
+    return this.bind(context)()
+  }
+  //Ans 2
+  Function.prototype.customApply = function (context, params) {
+    context[this] = this;
+    return context[this]()
+  }
+
+  // console.log(mouse.getType.apply(pokemon))
+  console.log(mouse.getType.customApply(pokemon))
+}
+
+/*
 3. Debouncing and throtling  
 4. Implement
 
@@ -53,5 +85,6 @@ value();
 */
 
 export default {
-  problem1
+  problem1,
+  problem2
 };
