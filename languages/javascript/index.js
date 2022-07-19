@@ -12,4 +12,9 @@
 
 
 import generalProblems from "./src/generalProblems.js";
-generalProblems.problem2()
+// generalProblems.problem1()
+// generalProblems.problem2()
+// generalProblems.problem3()
+// generalProblems.problem4()
+// generalProblems.problem5()
+generalProblems.problem6()

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "js": "nodemon languages/javascript/index.js localhost 8080",
     "test": "jest"
   },
   "author": "Anoop Jadhav",
