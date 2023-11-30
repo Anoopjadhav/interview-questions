@@ -29,6 +29,8 @@ export const problem1 = () => {
 */
 
 export const problem2 = () => {
+
+
   const pokemon = {
     name: 'pikachu',
     type: 'electric'
@@ -39,9 +41,6 @@ export const problem2 = () => {
       return this.type
     }
   }
-
-
-
 
   //Ans 1
   Function.prototype.customBind = function (newContext) {
